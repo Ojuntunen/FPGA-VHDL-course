@@ -18,7 +18,7 @@ signal DIGIT            : DIGIT_TYPE;
 signal DIGITS           : DIGITS_TYPE;
 signal COUNT            : INTEGER range 0 to 60 := 0;
 signal CLOCK_CYCLES     : INTEGER range 0 to 50e6 := 0;
-constant CLOCK_DIVIDER  : INTEGER := 1;
+constant CLOCK_DIVIDER  : INTEGER := 50e6;
 
 begin
 
